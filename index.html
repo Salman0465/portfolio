@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman's Portfolio</title>
+     <link rel="shortcut icon" href="/images/Black_Formal" type="image/x-icon">
+
+    <!-- Third party links -->
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- contact logos -->
+    <script src="https://kit.fontawesome.com/a068531b7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!-- Link To Goggle Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="darkmode">
+
+    <!--===================== header section =====================-->
+    <header class="header">
+
+        <a href="#home" class="logo">Salman Hasan Shohan</a>
+        <div class="mode-nav">
+        <button id="theme-switch">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+        </button>
+        <nav class="navbar">
+
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+
+            <label id="overlay" for="sidebar-active"></label>
+
+            <div class="links-container">
+
+                <label for="sidebar-active" class="close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </label>
+            
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+        </nav>
+        </div>
+
+    </header>
+
+
+    <!--===================== home section =====================-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Salman Hasan Shohan</h1>
+            <p>
+                Pre-Final year Computer Science Engineering specialized Data Science  student passionate about learning new technologies and problem-solving. Building front-end web applications is my creative outlet.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/salmanhasan.shohan" id="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.x.com/Salmanshoh53608" id="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/salmanhasanshohan" id="instagram" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://www.linkedin.com/in/salman-hasan-shohan-2852a0255" id="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.github.com/Salman0465" id="github" target="_blank"><i class="bx bxl-github"></i></a>
+            </div>
+             
+
+            <a href="./cv/Salman_128_CV.pdf.pdf" download="salman_cv">
+                <button class="animated-button">
+                    <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                    </svg>
+                    <span class="text">Download CV</span>
+                    <span class="circle"></span>
+                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                    </svg>
+                </button>
+            </a>
+            
+        </div>
+
+        <div class="profile-pic ">
+                <img src="./images/Black_Formal.jpg" alt=" Image">
+        </div>
+
+    </section>
+
+
+    <!--===================== about section =====================-->
+    <section class="about" id="about">
+
+        <div class="aboutcontainer">
+
+            <div class="profile-pic">
+                <img src="./images/Black_Formal.jpg" alt="Profile Image" >
+            </div>
+
+            <div class="rightabout">
+                <h1 class="ui-btn"><span>A</span>bout</h1>
+
+                <div>
+                    <p class="about-main">Pre-Final year Computer Science Engineering specialized Data Science student with a passion for front-end web development and exploring new technologies.</p>
+                    <p class="about-secondary">In addition to my interest in front-end development, I enjoy working on personal projects, building responsive websites, and experimenting with UI/UX design. I am also focused on strengthening my skills in Data Structures and Algorithms using C++, and I’m exploring database concepts to enhance my backend knowledge. When I’m not coding, I love capturing moments through photography in my free time.</p>
+                </div>
+
+                <button class="animated-button" onclick="window.location.href='working_on_progress.html'">
+                    <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                        ></path>
+                    </svg>
+    
+                    <span class="text">Read More</span>
+                    <span class="circle"></span>
+                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                        ></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--===================== skills section =====================-->
+    <section class="skillcontainer" id="skills">
+        <h1 class="ui-btn"><span>S</span>kills</h1>
+        <div class="boxcontainer">
+            <!-- box1 -->
+            <div class="box">
+                <img src="./images/html.png" alt="">
+                <h1>HTML</h1>
+            </div>
+
+            <!-- box2 -->
+            <div class="box">
+                <img src="./images/css.png" alt="">
+                <h1>CSS</h1>
+            </div>
+
+            <!-- box3 -->
+            <div class="box">
+                <img src="./images/js.png" alt="">
+                <h1>JS</h1>
+            </div>
+
+            <!-- box4 -->
+            <div class="box">
+                <img src="./images/c++.png" alt="">
+                <h1>C++</h1>
+            </div>
+
+            <!-- box6 -->
+            <div class="box">
+                <img src="./images/c.png" alt="">
+                <h1>C</h1>
+            </div>
+
+            <!-- box7 -->
+            <div class="box">
+                <img src="./images/office.png" alt="">
+                <h1>MS Office</h1>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!--===================== Projects Section =====================-->
+    <section class="project" id="projects">
+        <h1 class="ui-btn"><span>P</span>rojects</h1>
+        <div class="projects-container">
+
+            <div class="project-box">
+                <img src="images/qrcodegenerator.png" alt="">
+                <div class="project-layer">
+                    <h4>QR Code Generator</h4>
+                    <p>Generate qr code using your desired text or url</p>
+                    <a href="./javascript-project-main/qrCode/index.html"><i class="fa-solid fa-up-right-from-square"></i><div class="view-project">View Project</div></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./images/calculator2.png" alt="">
+                <div class="project-layer">
+                    <h4>Calculator</h4>
+                    <p>A powerful tool for quick, accurate mathematical calculations and problem-solving.</p>
+                    <a href="./javascript-project-main/simpleCalculator/index.html"><i class="fa-solid fa-up-right-from-square"></i><div class="view-project">View Project</div></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./images/todo.jpg" style="background-position: center;" alt="">
+                <div class="project-layer">
+                    <h4>Todo App</h4>
+                    <p>Stay organized, achieve more: Your goals, one task at a time.</p>
+                    <a href="./javascript-project-main/todolist/index.html"><i class="fa-solid fa-up-right-from-square"></i><div class="view-project">View Project</div></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="./images/code-editor.png" alt="">
+                <div class="project-layer">
+                    <h4>QR Code Generator</h4>
+                    <p>Generate qr code using your desired text or url</p>
+                    <a href="./javascript-project-main/code-editor/index.html"><i class="fa-solid fa-up-right-from-square"></i><div class="view-project">View Project</div></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/weatherApp.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Calculator</h4>
+                    <p>A powerful tool for quick, accurate mathematical calculations and problem-solving.</p>
+                    <a href="./javascript-project-main/WeatherApp/index.html
+                    "><i class="fa-solid fa-up-right-from-square"></i><div class="view-project">View Project</div></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/tictoctoe.png" style="background-position: center;" alt="">
+                <div class="project-layer">
+                    <h4>Todo App</h4>
+                    <p>Stay organized, achieve more: Your goals, one task at a time.</p>
+                    <a href="./javascript-project-main/tic-toc-toe/index.html"><i class="fa-solid fa-up-right-from-square"></i><div class="view-project">View Project</div></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!--=========================== contact section ===========================-->
+    <section class="contact" id="contact">
+        <h1 class="ui-btn"><span>C</span>ontact</h1>
+        <div class="contact-content">
+            <div class="colLeft">
+                
+                <div class="contactTitle">
+                    <h2>Get In Touch</h2>
+                    <p>Let's Collaborate or Connect!</p>
+                </div>
+
+                <div class="contactInfo">
+                        
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="details">
+                            <span class="details-title">Phone</span>
+                            <span class="details-content">+91 97XXXXXX85</span>
+                        </div>
+                    </div>
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="details">
+                            <span class="details-title">Email</span>
+                            <span class="details-content">salmanhasanshohan0465@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="details">
+                            <span class="details-title">Location</span>
+                            <span class="details-content">Gazipur,  pin - 1740, Dhaka, Bengladesh</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="socialMedia">
+                    <a href="https://www.facebook.com/salmanhasan.shohan"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.x.com/Salmanshoh53608"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/salmanhasanshohan"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/salman-hasan-shohan-2852a0255"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="colRight">
+                <form id="form" method="POST" class="messageForm">
+
+                    <input type="hidden" name="access_key" value="609cafc4-e61b-4669-a777-327f10ede1fb">
+                    
+                    <div class="inputGroup halfWidth">
+                        <input type="text" name="name" required="required">
+                        <label>Your Name</label>
+                    </div>
+
+                    <div class="inputGroup halfWidth">
+                        <input type="email" name="email" required="required">
+                        <label>Email</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <input type="text" name="subject" required="required">
+                        <label>Subject</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <textarea name="message" required="required"></textarea>
+                        <label>Say Something</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+
+
+                    <div id="result" class="results"></div>
+
+
+                </form>
+            </div>
+
+         </div>
+    </section>
+
+
+    <!-- <div class="visitorSection">
+        <h4>This page was viewed</h4>
+        <h2 id="visitor-count">0</h2>
+        
+        <h4>times</h4>
+    </div> -->
+
+    <!--============================ footer section ============================-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Salman Hasan Shohan | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home">
+            <button class="button">
+                <svg class="svgIcon" viewBox="0 0 384 512">
+                  <path
+                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                  ></path>
+                </svg>
+            </button></a>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <script src="/js/preventInspect.js"></script> -->
+    <script>
+        const form = document.getElementById('form');
+        const result = document.getElementById('result');
+    
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const formData = new FormData(form);
+          const object = Object.fromEntries(formData);
+          const json = JSON.stringify(object);
+          
+          // Show the popup with the "Please wait..." message
+        //   result.innerHTML = "Please wait...";
+            document.getElementById("result").innerHTML = "Please wait...";
+            
+          result.classList.add("show");
+          result.style.display = "flex"; // Ensures it's visible
+    
+          fetch('https://api.web3forms.com/submit', {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json',
+                  'Accept': 'application/json'
+              },
+              body: json
+          })
+          .then(async (response) => {
+              let json = await response.json();
+              if (response.status == 200) {
+                  result.innerHTML = '<i class="fa-solid fa-circle-check"></i> Form submitted successfully!';
+              } else {
+                  console.log(response);
+                  result.innerHTML = json.message;
+              }
+          })
+          .catch(error => {
+              console.log(error);
+              result.innerHTML = "Something went wrong!";
+          })
+          .then(function() {
+              form.reset();
+              // Hide the popup after 3 seconds
+              setTimeout(() => {
+                  result.style.display = "none";
+              }, 3000);
+          });
+        });
+      </script>
+</body>
+</html>
