@@ -48,6 +48,8 @@ body {
 }
 
 /* =========================header section =========================*/
+
+
 .header {
     position: fixed;
     top: 0;
@@ -225,6 +227,8 @@ nav svg {
 }
 
 /* ========================= section =========================*/
+
+
 /* General Styles for All Sections */
 section {
     min-height: 100vh;
@@ -234,6 +238,8 @@ section {
 
 
 /* ========================= Home Section =========================*/
+
+
 .home {
     display: flex;
     flex-direction: row;
@@ -439,6 +445,7 @@ section {
 
 /* ========================= About Section =========================*/
 
+
 .about {
     display: flex;
     justify-content: center;
@@ -528,6 +535,7 @@ section {
 }
 
 /* ========================= Skills Section ========================= */
+
 
 .skillcontainer {
     display: flex;
@@ -620,6 +628,8 @@ section {
 }
 
 /* ========================= Projects Section ========================= */
+
+
 .project .ui-btn {
     margin-bottom: 2rem;
 }
@@ -742,6 +752,8 @@ section {
 }
 
 /* ========================= Contact Section ========================= */
+
+
 .contact .ui-btn {
     margin-bottom: 2rem;
 }
@@ -1142,6 +1154,8 @@ textarea::-webkit-scrollbar-thumb{
 
 
 /* ========================= Visitor Section ========================= */
+
+
 /* .visitorSection{
     position: relative;
     height: 150px;
@@ -1169,6 +1183,7 @@ textarea::-webkit-scrollbar-thumb{
 } */
 
 /* ========================= Footer Section ========================= */
+
 
 .footer {
     display: flex;
